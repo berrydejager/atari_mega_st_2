@@ -2,6 +2,10 @@
 
 # Reference material
 
+Writing .ST files to floppy
+
+  sudo dd if=diamond_edge_2_04_hisoft.ST of=/dev/sdc bs=512
+
 ## Documentation
 
 [Atari Document Archive](https://docs.dev-docs.org/)
