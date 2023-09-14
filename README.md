@@ -8,6 +8,8 @@ Formatting floppy using Debian 12
 
   sudo ufiformat -f 720 -V -F /dev/sdc
 
+  sudo mkfs -t fat /dev/sdc
+
 Writing .ST files to floppy
 
   sudo dd if=diamond_edge_2_04_hisoft.ST of=/dev/sdc bs=512
